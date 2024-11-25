@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="/style.scc/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="text-center  text-container">
+    <h1 id="dynamic-text">Buy Now</h1>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a href="index.html"> <img src="image/logo.jpg.png" alt="" id="clk" width="100px" class="navbar-brand"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Eyeglasses
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="eyeglasses.html">Eye Glasses</a></li>
+                        <li><a class="dropdown-item" href="prieyeglasses.html">Premium Eye Glasses</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sunglasses
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="sunglasses.html">Sunglasses</a></li>
+                        <li><a class="dropdown-item" href="prisunglasses.html">Premium Sunglasses</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Lenses
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="lenses.html">Contact Lenses</a></li>
+                        <li><a class="dropdown-item" href="infolenses.html">Information of Lenses</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reviews.html">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a> <!-- Added Contact Us link -->
+                </li>
+                <li class="nav-item">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-danger" type="submit">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  <div class="maincantiner">
+    <div class="imgdiv">
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://ainak.pk/wp-content/uploads/2024/10/rayban-2123-silver-3.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://ainak.pk/wp-content/uploads/2024/10/rayban-2123-silver-4.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://ainak.pk/wp-content/uploads/2024/10/rayban-2123-silver-6.webp" class="d-block w-100" alt="...">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="txtdiv">
+      <h1>Tom Ford TF5863</h1>
+      <h4>Categories:</h4>
+      <div class="price">
+        <p>Price includes <b>Rs 9,500</b></p>
+
+        <p class="pone">*Frame</p>
+        <p class="pone">*Cleaning cloth & Box</p>
+      </div>
+      <p><b>Color:</b>black</p>
+      <img src="https://ainak.pk/image/tom-ford-tf5863-3.webp" class="pic" alt="">
+
+      <p>Size : medium ( 53 □17 -145 )</p>
+
+      <a href="contact.html" class="con">buy now </a>
+    </div>
+  </div>
+  <div class="centianer to">
+
+    <div class="detail">
+      <h1 class="de">Details</h1>
+      <p>Size : medium | 53 □17 -145</p>
+      <p>Color : <b class="bd"> Black </b></p>
+      <p>Material : acetate</p>
+      <p>Shape : Cat Eye</p>
+      <p>Rim : full-rim</p>
+    </div>
+    <div class="glassesimg">
+      <img src="frame.png" alt="">
+    </div>
+  </div>
+  <div class="devli">
+    <p>
+      <i class="fa-solid fa-truck-fast"></i> Free Delivery In Pakistan <i class="fa-solid fa-grip-lines-vertical"></i> 7
+      Days Exchange or Return <i class="fa-solid fa-7"></i>
+    </p>
+  </div>
+  <h1>Related Products <i class="fa-solid fa-glasses"></i></h1>
+  <div class="allcards">
+
+
+    <div class="col-6 col-md-4 mb-2">
+      <a href="page22.html" class="card-link">
+        <div class="card">
+          <img src="https://ainak.pk/wp-content/uploads/2024/10/rayban-2123-silver-3.webp" class="card-img-top" alt="Card image 1">
+          <div class="card-body">
+            <p class="card-text">Tom Ford TF5608</p>
+            <p class="card-text">Large (men, woman) <b>Rs 9,500</b></p>
+            <p class="text-success">
+              <a href="#" class="label-link">New | Primary</a>
+            </p>
+            <img src="https://ainak.sunglassmart.pk/image/Black.webp" alt="Small image 1" class="small-img">
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-6 col-md-4 mb-2">
+      <a href="page23.html" class="card-link">
+        <div class="card">
+          <img src="https://ainak.pk/wp-content/uploads/2024/10/rayban-2123-golden-3.webp" class="card-img-top" alt="Card image 2">
+          <div class="card-body">
+            <p class="card-text">Tom Ford TF5863</p>
+            <p class="card-text">Stylish and modern design <b>Rs 8,500</b></p>
+            <p class="text-success">
+              <a href="#" class="label-link">New | Primary</a>
+            </p>
+            <img src="https://ainak.sunglassmart.pk/image/Black.webp" alt="Small image 2" class="small-img">
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-6 col-md-4 mb-2">
+      <a href="page24.html" class="card-link">
+        <div class="card">
+          <img src="https://ainak.pk/wp-content/uploads/2024/10/rayban-2123-3.webp" class="card-img-top" alt="Card image 3">
+          <div class="card-body">
+            <p class="card-text">Ray-Ban A2257</p>
+            <p class="card-text">Classic Ray-Ban style <b>Rs 7,500</b></p>
+            <p class="text-success">
+              <a href="#" class="label-link">New | Primary</a>
+            </p>
+            <img src="https://ainak.pk/image/reality-3251-black-3.webp" class="small-img">
+          </div>
+        </div>
+      </a>
+    </div>
+
+  </div>
+  <footer class="bg-dark text-white pt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Follow Us</h2>
+          <ul class="list-unstyled social-icons">
+            <li><a href="https://www.instagram.com/abdul_rehman_000__/" target="_blank" style="color: #E1306C;"><i
+                  class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#" target="_blank" style="color: #3b5998;"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="#" target="_blank" style="color: #1DA1F2;"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://www.youtube.com/@TalhaAnjum" target="_blank" style="color: #FF0000;"><i
+                  class="fab fa-youtube"></i> YouTube</a></li>
+            <li><a href="#" target="_blank" style="color: #69C9D0;"><i class="fab fa-tiktok"></i> TikTok</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2>Shop</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Premium Sunglasses</a></li>
+            <li><a href="#" class="text-white">Sunglasses</a></li>
+            <li><a href="#" class="text-white">Women Sunglasses</a></li>
+            <li><a href="#" class="text-white">Men Sunglasses</a></li>
+            <li><a href="#" class="text-white">Eyeglasses</a></li>
+            <li><a href="#" class="text-white">Men Glasses</a></li>
+            <li><a href="#" class="text-white">Women Glasses</a></li>
+            <li><a href="#" class="text-white">Transparent Glasses</a></li>
+            <li><a href="#" class="text-white">Round Glasses</a></li>
+            <li><a href="#" class="text-white">Cat Eye Glasses</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2>Contact Us</h2>
+          <ul class="list-unstyled">
+            <li>Amir Opticals</li>
+            <li>Shop # 1, Al-Masoom Center</li>
+            <li>Ainak Market Shah Alam</li>
+            <li>karachi, Pakistan</li>
+            <li>Phone: +92 322 1234567</li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; 2023 Amir Opticals. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  <script>
+
+    const texts = ["phaly try kare phir buy kare", "Free Lens Cleaner", " free Box, Delivery", "No Extra for Eye Side number"];
+    let index = 0;
+
+    function changeText() {
+      const dynamicTextElement = document.getElementById("dynamic-text");
+      dynamicTextElement.innerText = texts[index];
+      index = (index + 1) % texts.length;
+    }
+
+    setInterval(changeText, 2000); 
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

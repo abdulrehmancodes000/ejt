@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Your Glasses Store</title>
+    <link rel="stylesheet" href="style.scc/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="text-center text-container">
+        <h1 id="dynamic-text">Buy Now</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="index.html"><img src="image/logo.jpg.png" alt="Your Glasses Store Logo" id="clk" width="100px" class="navbar-brand"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Eyeglasses</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="eyeglasses.html">Eye Glasses</a></li>
+                            <li><a class="dropdown-item" href="prieyeglasses.html">Premium Eye Glasses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sunglasses</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sunglasses.html">Sunglasses</a></li>
+                            <li><a class="dropdown-item" href="prisunglasses.html">Premium Sunglasses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Lenses</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="lenses.html">Contact Lenses</a></li>
+                            <li><a class="dropdown-item" href="infolenses.html">Information of Lenses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-danger" type="submit">Search</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://t3.ftcdn.net/jpg/05/89/92/50/360_F_589925063_ecQvtkwNAEnB7Nd9ad3hM7GOP0lae694.jpg" class="d-block w-100" alt="Carousel Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://watermark.lovepik.com/photo/40008/0007.jpg_wh1200.jpg" class="d-block w-100" alt="Carousel Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://png.pngtree.com/png-clipart/20201208/original/pngtree-red-eye-catching-order-now-tags-png-image_5550281.jpg" class="d-block w-100" alt="Carousel Image 3">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <header class="text-center">
+            <h1>Contact Us</h1>
+        </header>
+
+        <main class="container my-4 contact-section">
+            <p class="text-center">We'd love to hear from you! Please fill out the form below or reach us at the contact information provided.</p>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-danger">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="col-md-6">
+                    <h4>Contact Information</h4>
+                    <p><strong>Email:</strong> info@stylishglasses.com</p>
+                    <p><strong>Phone:</strong> +1 234 567 890</p>
+                    <p><strong>Address:</strong> 123 Eyewear St, Fashion City, CA 90001</p>
+
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="text-dark"><i class="fab fa-facebook-f"></i> Facebook</a><br>
+                        <a href="#" class="text-dark"><i class="fab fa-twitter"></i> Twitter</a><br>
+                        <a href="#" class="text-dark"><i class="fab fa-instagram"></i> Instagram</a><br>
+                        <a href="#" class="text-dark"><i class="fab fa-pinterest"></i> Pinterest</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="bg-dark text-white pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Follow Us</h2>
+                    <ul class="list-unstyled social-icons">
+                        <li><a href="https://www.instagram.com/abdul_rehman_000__/" target="_blank" style="color: #E1306C;"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#" target="_blank" style="color: #3b5998;"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#" target="_blank" style="color: #1DA1F2;"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="https://www.youtube.com/@TalhaAnjum" target="_blank" style="color: #FF0000;"><i class="fab fa-youtube"></i> YouTube</a></li>
+                        <li><a href="#" target="_blank" style="color: #69C9D0;"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2>Shop</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Premium Sunglasses</a></li>
+                        <li><a href="#" class="text-white">Sunglasses</a></li>
+                        <li><a href="#" class="text-white">Women Sunglasses</a></li>
+                        <li><a href="#" class="text-white">Men Sunglasses</a></li>
+                        <li><a href="#" class="text-white">Eyeglasses</a></li>
+                        <li><a href="#" class="text-white">Men Glasses</a></li>
+                        <li><a href="#" class="text-white">Women Glasses</a></li>
+                        <li><a href="#" class="text-white">Transparent Glasses</a></li>
+                        <li><a href="#" class="text-white">Round Glasses</a></li>
+                        <li><a href="#" class="text-white">Cat Eye Glasses</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2>Contact Us</h2>
+                    <ul class="list-unstyled">
+                        <li><strong>Amir Opticals</strong></li>
+                        <li>Shop # 1, Al-Masoom Center</li>
+                        <li>Ainak Market, Shah Alam</li>
+                        <li>Karachi, Pakistan</li>
+                        <li><strong>Phone:</strong> +92 322 1234567</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                &copy; 2023 Amir Opticals. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const texts = ["phaly try kare phir buy kare", "Free Lens Cleaner", "Free Box, Delivery", "No Extra for Eye Side number"];
+        let index = 0;
+
+        function changeText() {
+            const dynamicTextElement = document.getElementById("dynamic-text");
+            dynamicTextElement.innerText = texts[index];
+            index = (index + 1) % texts.length; 
+        }
+
+        setInterval(changeText, 2000); 
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
